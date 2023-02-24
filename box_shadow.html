@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height:250px;
+            /* 1rem = 16px */
+            width:250px;
+            border:1px solid black;
+            margin:150px;
+
+            /* box-shadow: [horizontal offset] [vertical offset] [blur] [spread] [color] */
+            /* horizontal offset/shadow -ve for left/+ve for right */
+               box-shadow: -10px 0 30px 40px black ;
+
+            /* vertical offset/shadow -ve for top/ +ve for bottom */
+            box-shadow: 0 10px 35px  rgb(20, 20, 22);
+
+            /* blur */
+            box-shadow: 0 0 35px  #141416;
+
+            /* spread */
+            box-shadow: 0 0 25px 40px #141416;
+            
+            /* colors */
+            box-shadow: 0 0 25px 40px #4b4bb7;
+            
+            /* multiple colors */
+            box-shadow: 0 0 25px 40px #b51b1d, 0 0 35px 45px #12129d;
+
+            /* inset */
+            box-shadow: 0 0 25px 40px #b51b1d inset;
+            box-shadow: 0 0 25px 40px #b51b1d inset, 0 0 35px 45px #12129d inset; 
+            box-shadow: 20px 0 35px 45px #141416ab;
+
+             /* box-shadow: 0 0 55px 80px #141416; */
+        }
+    </style>
+</head>
+<body>
+    
+<div></div>
+
+</body>
+</html>
